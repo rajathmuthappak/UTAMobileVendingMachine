@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".OperatorDetails">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="33dp"
+        android:text="Operator Details"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"/>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/odFirstNametv"
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:text="First Name"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:id="@+id/odFirstNameDesctv"
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/odLastNametv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Last Name"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:id="@+id/odLastNameDesctv"
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/odPhonetv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Phone"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:id="@+id/odPhoneDesctv"
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/odEmailtv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Email"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:id="@+id/odEmailDesctv"
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/odLocationtv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Location"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:id="@+id/odLocationDesctv"
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/odVehicletv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Vehicle"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:id="@+id/odVehicleDesctv"
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/odScheduletv"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Schedule"
+            android:textColor="@color/colorPrimaryDark" />
+        <TextView
+            android:id="@+id/odScheduleDesctv"
+            android:layout_width="167dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorPrimaryDark" />
+    </TableRow>
+</TableLayout>
+
+
+
+
+</LinearLayout>

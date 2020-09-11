@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".CardDetails">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" Please Enter Your Card Details"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart Total: "
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:id="@+id/taxAmt"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:text="Tax: "
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/cardNumber"
+        android:layout_width="364dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="20dp"
+        android:hint="Enter your card number"
+        android:inputType="number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:hint="CVV"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="expiry date"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:layout_marginStart="30sp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expiry"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:hint="MM/YY"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/validate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFF"
+        android:text="Validate" />
+
+
+</LinearLayout>
